@@ -1,6 +1,33 @@
 /* font-family */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+/* header styles */
+.header{
+    width: 100%px;
+    height: 80px;
+    text-align: center;
+    background-color: #562EFF;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 289px 0 289px;
+}
+nav a{
+    text-decoration: none;
+}
+.lugo{
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+    margin-top: 12px;
+    align-items: center;
+}
+
 /* common styles */
 body{
     font-family: 'Poppins', sans-serif;
@@ -147,40 +174,3 @@ hr{
 }
 
 
-
-
-
-
-
-/* .courses{
-    display: grid;
-    grid-template-columns: 3, 1fr;
-}
-.course .cours-banner img{
-    height: 104px;
-    width: 224px;
-}
-.course-info{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.fa-stae{
-    font-size: 12px;
-}
-.fa-star.color{
-    color: #FFC014;
-}
-.fa-star.emtey{
-    color: #AEAEAE;
-}
-.course-dr{
-    color:  #FF4A60;
-    width: 94.826px;
-    height: 29.383px;
-    border-radius: 14.691px;
-    background-color: var(--ffe-4-e-8, #FFE4E8);
-}
-.fa-clock{
-    color:  #FF4A60;
-} */
